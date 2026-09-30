@@ -1,17 +1,49 @@
-# luxora
+# LUXORA – Flutter E-Commerce Web Application
 
-A new Flutter project.
+LUXORA is a responsive e-commerce web application developed using Flutter and Dart.
 
-## Getting Started
+The application provides a modern shopping experience where users can browse products, search and filter products, view product details, and manage items in a shopping cart.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- User login validation
+- Responsive Flutter Web interface
+- Product catalogue
+- Product search
+- Category filtering
+- Product sorting
+- Product details page
+- Product images
+- Add to cart
+- Cart quantity management
+- Cart total calculation
+- Responsive product cards
+- Lazy/incremental product loading
+- Responsive navigation and UI
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Technology Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Material 3
+- Flutter Web
+- Local mock product data
+- Local product assets
+
+## Project Structure
+
+```text
+lib/
+├── data/
+│   ├── cart.dart
+│   └── products.dart
+├── models/
+│   └── product.dart
+├── screens/
+│   ├── login_screen.dart
+│   ├── home_screen.dart
+│   ├── product_details_screen.dart
+│   └── cart_screen.dart
+├── theme/
+│   └── app_theme.dart
+└── main.dart
